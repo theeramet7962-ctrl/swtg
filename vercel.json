@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/analyze-waste",
+      "destination": "/api/analyze-waste"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
