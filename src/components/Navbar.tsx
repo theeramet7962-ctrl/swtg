@@ -63,14 +63,9 @@ export const Navbar: React.FC<NavbarProps> = ({
                 <Leaf className="w-5 h-5 animate-pulse" />
               </div>
               <div>
-                <div className="flex items-center gap-1.5">
-                  <h1 className="text-lg font-bold bg-gradient-to-r from-emerald-800 via-teal-800 to-slate-900 bg-clip-text text-transparent">
-                    SMART WASTE 3D GUIDE
-                  </h1>
-                  <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200">
-                    <Sparkles className="w-2.5 h-2.5 text-emerald-600" /> Vision 3.6
-                  </span>
-                </div>
+                <h1 className="text-lg font-bold bg-gradient-to-r from-emerald-800 via-teal-800 to-slate-900 bg-clip-text text-transparent">
+                  SMART WASTE 3D GUIDE
+                </h1>
                 <p className="text-[11px] text-slate-500 font-medium">
                   ระบบคัดแยกขยะอัจฉริยะ มาตรฐานไทย 5 สี
                 </p>

@@ -124,12 +124,7 @@ export const EcoAdvisorModal: React.FC<EcoAdvisorModalProps> = ({
               <Bot className="w-6 h-6" />
             </div>
             <div>
-              <div className="flex items-center gap-1.5">
-                <h3 className="font-bold text-sm text-white">EcoBot ผู้ช่วย AI</h3>
-                <span className="text-[10px] font-semibold bg-emerald-400/30 text-emerald-100 px-2 py-0.5 rounded-full">
-                  Gemini 3.6
-                </span>
-              </div>
+              <h3 className="font-bold text-sm text-white">EcoBot ผู้ช่วย AI</h3>
               <p className="text-[11px] text-emerald-100/80">ตอบทุกข้อสงสัยเรื่องการคัดแยกขยะ 24 ชม.</p>
             </div>
           </div>

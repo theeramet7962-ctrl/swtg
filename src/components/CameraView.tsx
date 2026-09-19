@@ -202,7 +202,7 @@ export const CameraView: React.FC<CameraViewProps> = ({
             <div className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping" />
             <span className="text-xs font-bold uppercase tracking-wider text-emerald-800 flex items-center gap-1.5">
               <Scan className="w-3.5 h-3.5 text-emerald-600" />
-              AI Waste Vision Scanner
+              AI Waste Scanner
             </span>
           </div>
           {cameraActive && (

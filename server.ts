@@ -64,7 +64,7 @@ async function startServer() {
         : "จำแนกชนิดขยะในภาพนี้ บอกประเภทถังขยะ สีถังขยะ วิธีคัดแยกทีละขั้นตอน การแยกชิ้นส่วนย่อย (ถ้ามี) การคำนวณลดก๊าซคาร์บอน CO2 และไอเดีย DIY";
 
       const response = await ai.models.generateContent({
-        model: "gemini-3.6-flash",
+        model: "gemini-3.8-flash",
         contents: {
           parts: [
             {
@@ -207,7 +207,7 @@ async function startServer() {
         : `คำถามของผู้ใช้: "${message}"`;
 
       const response = await ai.models.generateContent({
-        model: "gemini-3.6-flash",
+        model: "gemini-3.8-flash",
         contents: promptContext,
         config: {
           systemInstruction,
